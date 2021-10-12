@@ -1,0 +1,10 @@
+body {
+    color: blue;
+}
+
+/* change color of all paragraphs */
+p, li{
+    color:green;
+}
+
+/* This is a CSS comment */
