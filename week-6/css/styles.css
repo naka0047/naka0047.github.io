@@ -1,9 +1,18 @@
 body {
+    background-color: red;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
 
-p:nth-child(2) {
-    font-weight: 800;
+.bolded {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.italics {
+    font-style: italic;
 }
