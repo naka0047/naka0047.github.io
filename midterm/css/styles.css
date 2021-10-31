@@ -3,9 +3,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    color: aliceblue;
-    position: center;
-    background-image: url(images/lone-starfish-wide\ copy.jpg);
+div {
+    position: realtive;
 }
 
+span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+#top-image {
+    width:max-content
+}
