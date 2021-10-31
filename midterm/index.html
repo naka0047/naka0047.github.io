@@ -8,10 +8,11 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Lone Starfish</h1>
-    </header>
-    <img src="images/lone-starfish-wide copy.jpg" alt="imege of lone starfish">
+    <div style="position: relative; display:inline-block;">
+        <img src="images/lone-starfish-wide copy.jpg" alt="top-pic"> 
+        <div style="position: absolute; top: 0; left: 0; max-width: 100%; max-height: 100%; padding: 30px; text-align: left;">
+        <p>Lone Starfish</p>
+        </div></div>
     <ul>
         <li><a href="default.asp">Home</a></li>
         <li><a href="story.asp">Story</a></li>
@@ -34,7 +35,7 @@
         <label for="yemail">Your Email</label><br>
         <input type="text" id="yemail" name="yemail"><br>
         <label for="ymessage">Your Message</label><br>
-        <textarea name="ymessage" rows="5" cols="200"></textarea>
+        <textarea name="ymessage" rows="5" cols="150"></textarea>
     </form>
     <p>Would you like to visit the starfish?</p>
     <form>
