@@ -4,8 +4,8 @@ body {
 }
 
 header {
-    background-image: url("lone-starfish-wide copy.jpg");
     color: aliceblue;
     position: center;
+    background-image: url(images/lone-starfish-wide\ copy.jpg);
 }
 
