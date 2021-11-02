@@ -1,22 +1,94 @@
+html {
+    background-color: #aad4cf;
+}
+
 body {
     background-color: #c3e0dd;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    padding-left: 3cm;
+    padding-right: 3cm;
 }
 
-div {
-    position: realtive;
-}
-
-span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    color:whitesmoke;
-    font-size: 4em;
-    font-weight: 800;
+ .centred {
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#top-image {
-    width:max-content
+.centred {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+
+
+nav {
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    font-size: 2em;
+}
+
+nav ul li {
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+    width: 120px;
+    height: 50px;
+}
+
+nav ul { 
+    justify-content: center;
+    margin: 0 ;
+    padding: 0 ;
+}
+    
+nav li {
+    flex: 10 auto;
+    width: 100%;
+    min-width: 90px;
+}
+    
+nav li:not(:last-child) {
+    border-right:2px solid #000000;
+}
+
+
+    
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    color: #333;
+}
+    
+nav a:hover {
+    color:#000000;
+    border-bottom:2px solid #6692a1;
+}
+
+.inline-block {
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+.right {
+    float: left;margin-right:10px;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: lighter;
 }
