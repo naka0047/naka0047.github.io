@@ -1,0 +1,586 @@
+/*Mobile-first approach in the styling*/
+
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.upper {
+    background-color: #222;
+    list-style: none;
+    padding: 18px;
+    padding-bottom: 20px;
+}
+
+.upper img{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #222;
+    font-size: 18px;
+    padding-top: 10;
+    padding-bottom: 0;
+}
+  
+li a {
+    display: block;
+    height: 20px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color:#c78c06;
+}
+  
+li a.home {
+    background-color: #c78c06;
+    color: #222;
+    padding-top: 20px;
+}
+  
+ul li:hover{
+    background-color: #222;
+    color: #c78c06;
+    width: 100%;
+}
+
+li {
+    text-align: center;
+}
+
+.searchbar {
+    background-color: #222;
+}
+
+.searchbar {
+    width: 92%;
+    position: center;
+    background-color: white;
+    color: #222;
+    height: 30px;
+    border-style: none;
+}
+
+.searchbutton {
+    position: absolute;
+    float: right;
+    width: 34px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    top: 316px;
+    background: #222;
+    color: #c78c06;
+    font-size: 18px;
+    border: 1px solid #c78c06;
+    border-left: none;
+    cursor: pointer;
+    height: 34px;
+}
+      
+.searchbutton:hover {
+    background: #222;
+    color: #c78c06;      
+}
+
+.intro-container {
+    position: relative;
+    text-align: absolute;
+    color: white;
+}
+
+.intro-container img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0;
+}
+
+h1 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin-bottom: 50px;
+    margin-top: 41px;
+    padding-left: 15px;
+    background-color: rgba(34, 34, 34, 0.8);
+    top: 0;
+    color: white;
+    font-size: 71px;
+}
+
+.h1p {
+    font-size: 14px;
+    width: auto;
+    position: absolute;
+    top: 180px;
+    left: 0;
+    margin-top: 55px;
+    padding-bottom: 100px;
+    background-color: rgba(34, 34, 34, 0.8);
+}
+
+.h1button {
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    font-family: 'Open Sans' sans-serif;
+    background-color: #c78c06;
+    color: black;
+    border: none;
+    font-size: 21px;
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+
+h3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top:20px;
+    padding-bottom:0;
+}
+
+h4 {
+    font-size: 15px;
+    border-bottom: solid 2px #c78c06;
+    width: 90%;
+    margin-left: 15px;
+}
+
+.aboutus {
+    background-color: #ffe6ac;
+    padding-bottom: 15px;
+    margin-top: -10px;
+    padding-top: 0;
+}
+
+.aboutusimg {
+    width: 95%;
+    position: center;
+    padding: 15px;
+}
+
+.aboutush2 {
+    padding-left: 15px;
+    margin-top: -50px;
+}
+
+.digital, .marketing, .video, .web, .print {
+    background-color: #ffe6ac;
+    margin: 10px;
+}
+
+.digital img, .marketing img, .video img, .web img, .print img{
+    width: 100%;
+}
+
+.ourvision-img {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+}
+
+.jonh, .bob {
+    background-color: #ffe6ac;
+    margin: 10px;
+    padding-bottom: 15px;
+}
+
+.jonh img, .bob img {
+    width: 100%;
+}
+
+#fullname, #email, #message {
+    width: 95%;
+    margin: 10px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.days {
+    width:57%;
+}
+
+.hours {
+    width: 43%;
+}
+
+table, td, tr{
+    border-collapse: collapse;
+    border: 1px solid #222;
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+th {
+    background-color: #ffe6ac;
+    border: 1px solid #222;
+    padding: 10px;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+iframe {
+    width: 95%;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #222;
+    color: #c78c06;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.unsplash {
+    color: #c78c06;
+}
+
+h2 {
+    font-size: 48px;
+    padding-left: 15px;
+    padding-top: 50px;
+}
+
+p {
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.digitalbutton, .marketingbutton, .videobutton, .webbutton, .printbutton {
+    height: 80px;
+    font-family: 'Open Sans' sans-serif;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 20px 35px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.ourvisionbutton {
+    font-family: 'Open Sans' sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 20px 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: solid 1px #c78c06;
+}
+
+.ourvision{
+    position: absolute;
+    margin-top: 300px;
+}
+
+#button {
+    background-color: #222;
+    color: #c78c06;
+    margin-left: 15px;
+    height: 35px;
+    font-size: 18px;
+    width: 65px;
+}
+
+label {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+
+.intro {
+    background-image: 'images/main-banner.png';
+    background-color: rgba(34, 34, 34, 0.8);
+}
+
+.ourvision {
+    width: auto;
+    position: absolute;
+    top: 4425px;
+    left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0;
+    color: white;
+}
+
+#fullname, #email {
+    border: solid 1px black;
+    height: 30px;
+}
+
+#message {
+    height: 160px;
+}
+
+.sendusamessage {
+    padding-bottom: 20px;
+}
+
+/*min width 761px, max width 1200 px*/
+@media screen and (min-width: 761px) and (max-width: 1200px){
+    ul{
+        position: absolute;
+        top: 50px;
+        left: 150px;
+        float: right;
+        display: table;
+        margin: 0 auto;
+        padding: 0;
+        width: 50%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    ul li{
+        display: table-cell;
+        min-width: 50px;
+    }
+
+    ul li a{
+        display: block;
+        width: 100%;
+        padding: 10px 10px;
+        text-decoration: none;
+        color: #c78c06;
+    }
+
+    ul li.home{
+        background-color: #c78c06;
+    }
+
+    ul li.home a{
+        color: #222;
+    }
+
+    .searchbar {
+        background-color: #222;
+    }
+        
+    .searchbar {
+        width: 15%;
+        position: absolute;
+        background-color: white;
+        color: #222;
+        height: 40px;
+        border-style: none;
+        float: right;
+        top: 50px;
+        right: 100px;
+    }
+        
+    .searchbutton {
+        position: absolute;
+        float: right;
+        width: 34px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        top: 50px;
+        right: 65px;
+        background: #222;
+        color: #c78c06;
+        font-size: 17px;
+        border: 1px solid #c78c06;
+        border-left: none;
+        cursor: pointer;
+        height: 40px;
+    }
+              
+    .searchbutton:hover {
+        background: #222;
+        color: #c78c06;      
+    }
+
+    h1 {
+        width: 755px;
+        position: center;
+        left: 0;
+        margin-bottom: 50px;
+        margin: 100px;
+        margin-top: 85px;
+        background-color: rgba(34, 34, 34, 0.8);
+        top: 150px;
+        color: white;
+        font-size: 55px;
+        padding-bottom: 33px;
+        padding-top: 37px;
+    }
+    
+    .h1p {
+        width: 1000px;
+        position: center;
+        margin: 100px;
+        font-size: 12px;
+        width: auto;
+        position: absolute;
+        top: 400px;
+        left: 0;
+        margin-top: 55px;
+        padding-bottom: 130px;
+        background-color: rgba(34, 34, 34, 0.8);
+    }
+    
+    .h1button {
+        position: absolute;
+        top: 30px;
+        left: 15px;
+        font-family: 'Open Sans' sans-serif;
+        background-color: #c78c06;
+        color: black;
+        border: none;
+        font-size: 18px;
+        padding: 20px 20px;
+        margin-top: 30px;
+        height: 90px;
+    }
+
+    .aboutusimg {
+        width: 50%;
+        position: center;
+        padding: 15px;
+        float: left;
+        padding-top: 35px;
+        background-color: #ffe6ac;
+    }
+
+    .aboutush2 {
+        margin-top: 0;
+    }
+
+    .aboutus p {
+        background-color: #ffe6ac;
+        padding-right: 50px;
+        margin-bottom: 0;
+    }
+
+    .aboutusp2 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-top: 0;
+    }
+
+    .ourservices {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 560px 490px;
+    }
+
+    .ourservices div:nth-child(1){
+        grid-column: 1/4;
+      }
+
+    .ourservices div:nth-child(2){
+        grid-column: 4/7;
+    }
+
+    .ourservices div:nth-child(3){
+        grid-column: 1/3;
+    }
+
+    .ourservices div:nth-child(4){
+        grid-column: 3/5;
+    }
+
+    .ourservices div:nth-child(5){
+        grid-column: 5/7;
+    }
+    
+    .digitalbutton, .marketingbutton, .videobutton, .webbutton, .printbutton {
+        height: 80px;
+        font-family: 'Open Sans' sans-serif;
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-weight: lighter;
+        padding: 20px 20px;
+        margin-left: 15px;
+        width: 90%;
+    }
+
+    .digital, .marketing, .video, .web, .print {
+        background-color: #ffe6ac;
+        margin:10px;
+    }
+
+    .digital p, .marketing p, .video p, .web p, .print p {
+        width: 90%;
+    }
+
+    .ourvision {
+        width: auto;
+        position: absolute;
+        top: 2100px;
+        left: 15px;
+        padding-right: 15px;
+        margin-bottom: 0;
+        color: white;
+    }
+    
+    .ourvision p {
+        width: 90%;
+    }
+
+    .ourteam {
+        width: 100%;
+    }
+
+    .jonh img {
+        float: left;
+        width: 50%;
+        padding-right: 15px;
+    }
+
+    .jonh {
+        position: center;
+        float: right;
+        width: 95%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .bob img {
+        float: right;
+        width: 50%;
+        padding-left: 15px;
+    }
+
+    .bob {
+        margin-top: 0;
+        position: center;
+        float: left;
+        width: 95%;
+        padding-bottom: 0;
+    }
+
+    .contactus {
+        width: 45%;
+        height: 70%;
+    }
+
+    .location {
+        width: 50%;
+        position: absolute;
+        left: 450px;
+        top: 3400px;
+    }
+}
