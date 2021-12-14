@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all"><!--added this-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--added this-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--added this-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"><!--added this-->
     <title>HTML Page Mock-up</title>
 </head>
 <body>
@@ -20,92 +24,122 @@
                     <li><a href="#" class="Contact">Contact</a></li>
                 </ul>
             </nav>
-            <form>
-                <input type="text" placeholder="Search">
-                <button> &#x1f50D; </button>
+            <form><!--added class-->
+                <input type="text" placeholder="Search" class="searchbar"><!--added class-->
+                <button class="searchbutton"> &#x1f50D; </button><!--added class-->
             </form>
         </div>
             <div class="intro-container">
                 <img src="images/main-banner.jpg" alt="main-banner">
-                <h1>Welcome to Three Star Media</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corporis in repudiandae quam ea id unde voluptate ipsa? Cupiditate itaque ut in, repudiandae officia quaerat quod beatae deserunt eos odio!</p>
-                <button type="button">Connect with us &#9654;</button>
+                <div class="intro">
+                    <h1>Welcome to Three Star Media</h1>
+                    <p class="h1p">Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!<button class="h1button" type="button">Connect with us &#9654;</button></p><!--changed the sentences and added class--><!--added id--><!--changed words--><!--moved button section-->
+                </div><!--added div-->
             </div>
     </header>
     <main>
         <div class="main">
             <!--About Us-->
-            <img src="images/about-us.jpg" alt="about-us">
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde culpa ratione eum laboriosam. Sit hic harum accusamus placeat laudantium incidunt. Inventore vero soluta minus, porro voluptate commodi reiciendis dolore nihil!</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, veniam maxime molestias pariatur nesciunt quasi et expedita commodi dignissimos quos, itaque nemo, aliquam impedit! Quam laudantium commodi earum eveniet dolores!</p>
+        <div class="aboutus">
+            <img src="images/about-us.jpg" alt="about-us" class="aboutusimg"><!--added class-->
+            <h2 class="aboutush2">About Us</h2><!--added class-->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p><!--changed the sentences-->
+            <p class="aboutusp2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo commodi guidem, non perferendis vel sed facilis rerum cum in exercitationem?</p2><!--changed the sentences--><!--added class-->
+        </div><!--added div tag-->
             <!--Our Services-->
             <h2>Our Services</h2>
-            <img src="images/digital.jpg" alt="digital">
-            <h3>Digital Transformation</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias rerum neque delectus maxime, repellat fuga earum pariatur ut autem placeat? Optio assumenda nisi consequatur maxime dolorem voluptas corporis non.</p>
-            <button type="button">Digital Plans &#9654;</button><br>
-            <img src="images/marketing.jpg" alt="marketing">
-            <h3>Marketing</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deleniti consequuntur, quibusdam officia consectetur, ipsam nemo praesentium veniam debitis explicabo nostrum molestiae, saepe ab. Quam beatae est et adipisci. Sapiente!</p>
-            <button type="button">Marketing Plans &#9654;</button><br>
-            <img src="images/video.jpg" alt="video">
-            <h3>Video Production</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eos quidem nihil cumque eveniet veniam, delectus placeat quasi quo nemo! Quas, atque! Facilis et obcaecati cupiditate, molestias esse recusandae placeat.</p>
-            <button type="button">Video Plans &#9654;</button><br>
-            <img src="images/web.jpg" alt="web">
-            <h3>Web Development</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo perferendis rem adipisci alias in fuga, velit cum nam nulla veritatis soluta odio magnam illum molestiae. Fugit suscipit dolor expedita porro.</p>
-            <button type="button">Web Plans &#9654;</button><br>
-            <img src="images/print.jpg" alt="print">
-            <h3>Print</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit exercitationem aliquam fugiat blanditiis laborum, aspernatur distinctio eius assumenda, temporibus ipsa repudiandae nesciunt recusandae earum! Ducimus incidunt animi aliquid id hic?</p>
-            <button type="button">Print Plans &#9654;</button><br>
+        <div class="ourservices">
+            <div class="digital"><!--added class-->
+                <img src="images/digital.jpg" alt="digital">
+                <h3>Digital Transformation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p><br><!--added br tag and changed the sentences-->
+                <button type="button" class="digitalbutton">Digital Plans &#9654;</button><br><!--added class-->
+            </div>
+            <div class="marketing"><!--added class-->
+                <img src="images/marketing.jpg" alt="marketing">
+                <h3>Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p><br><!--added br tag and changed the sentences-->
+                <button type="button" class="marketingbutton">Marketing Plans &#9654;</button><br><!--added class-->
+            </div>
+            <div class="video"><!--added class-->
+                <img src="images/video.jpg" alt="video">
+                <h3>Video Production</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p><br><!--added br tag and changed the sentences-->
+                <button type="button" class="videobutton">Video Plans &#9654;</button><br><!--added class-->
+            </div>
+            <div class="web"><!--added class-->
+                <img src="images/web.jpg" alt="web">
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p><br><!--added br tag and changed the sentences-->
+                <button type="button" class="webbutton">Web Plans &#9654;</button><br><!--added class-->
+            </div>
+            <div class="print"><!--added class-->
+                <img src="images/print.jpg" alt="print">
+                <h3>Print</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p><br><!--added br tag and changed the sentences-->
+                <button type="button" class="printbutton">Print Plans &#9654;</button><br><!--added class-->
+            </div>
+        </div><!--added div tag and class-->
             <!--Our Vision-->
-            <img src="images/vision.jpg" alt="vision">
-            <h3>Our Vision</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed et tempora cupiditate adipisci voluptatum qui laboriosam officiis hic repudiandae nam! Voluptatibus laborum dignissimos fugiat harum aliquam aperiam sunt fugit itaque!</p>
-            <button type="button">Learn More &#9654;</button><br>
+            <img src="images/vision.jpg" alt="vision" class="ourvision-img"><!--added class-->
+            <div class="ourvision">
+                <h3>Our Vision</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex voluptatem deleniti lure, sit, accusantium rerum est commodi veniam tempora perspiciatis nobis officiis fagiat eaque. Veritatis exercitationem delectus ex ab laudantium.</p><br><!--added br tag and changed the sentences-->
+                <button type="button" class="ourvisionbutton">Learn More &#9654;</button><br><!--added class-->
+            </div><!--added class-->
             <!--Our Team-->
-            <h2>Our Team</h2>
-            <img src="images/john.jpg" alt="john">
-            <h3>John Doe</h3>
-            <h4>CEO and Co-owner</h4>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum nemo sed libero error labore ea similique doloremque nulla. Reiciendis earum veniam quasi, quae est eos. Nam laboriosam laudantium corporis quas?</p>
-            <img src="images/bob.jpg" alt="bob">
-            <h3>Bob Rite</h3>
-            <h4>CEO and Co-owner</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, corrupti? Soluta perferendis aliquid delectus temporibus eaque ab quod laborum facilis esse quae quos fugit deserunt eveniet illum, nesciunt vero? Fugiat.</p>
+        <h2>Our Team</h2>
+        <div class="ourteam">
+            <div class="jonh"><!--added class-->
+                <img src="images/john.jpg" alt="john">
+                <h3>John Doe</h3>
+                <h4>CEO and Co-owner</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p><br><!--added br tag and changed the sentences-->
+            </div>
+            <div class="bob"><!--added class-->
+                <img src="images/bob.jpg" alt="bob">
+                <h3>Bob Rite</h3>
+                <h4>CEO and Co-owner</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p><br><!--added br tag and changed the sentences-->
+            </div>
+        </div>
             <!--Contact Us-->
-            <h2>Contact Us</h2>
-            <h3>Send us a message</h3>
-            <label for="fullname">Full Name</label><br>
-            <input type="text" id="fullname" name="fullname"><br>
-            <label for="email">Email</label><br>
-            <input type="text" id="email" name="email"><br>
-            <label for="message">Message</label><br>
-            <textarea id="message" name="message"></textarea><br>
-            <button id=button type="button">SEND</button>
-            <h3>Hours of operation</h3>
-            <table>
-                <tr>
-                <th>Days</th> <th>Hours</th>
-                </tr>
-                <tr>
-                <td>Monday - Friday</td> <td>9 AM - 6 PM</td>
-                </tr>
-                <tr>
-                <td>Saturday - Sunday</td> <td>Closed</td>
-                </tr>
-            </table>
-            <h3>Location</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5607.904607782652!2d-75.75916700105618!3d45.34977506598842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus%2C%201385%20Woodroffe%20Ave%2C%20Nepean%2C%20ON%20K2G%201V8!3m2!1d45.349927799999996!2d-75.7549368!5e0!3m2!1sen!2sca!4v1638243283725!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <h2>Contact Us</h2>
+        <div class="footpart">
+            <div class="contactus">
+                <h3 class="sendusamessage">Send us a message</h3><br><!--added br tag and added class-->
+                <label for="fullname">Full Name</label><br>
+                <input type="text" id="fullname" name="fullname"><br>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <button id=button type="button">Send</button>
+            </div><!--added div tag-->
+            <h3>Hours of operation</h3><br><!--added br tag-->
+            <div class="operation"></div><!--added class-->
+                <table>
+                    <tr>
+                    <th class="days">Days</th> <th class="hours">Hours</th><!--added class-->
+                    </tr>
+                    <tr>
+                    <td>Monday - Friday</td> <td>9 AM - 6 PM</td>
+                    </tr>
+                    <tr>
+                    <td>Saturday - Sunday</td> <td>Closed</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="location">
+                <h3>Location</h3><br><!--added br tag and added class-->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5607.904607782652!2d-75.75916700105618!3d45.34977506598842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus%2C%201385%20Woodroffe%20Ave%2C%20Nepean%2C%20ON%20K2G%201V8!3m2!1d45.349927799999996!2d-75.7549368!5e0!3m2!1sen!2sca!4v1638243283725!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div><!--added div tag-->
         </div>
     </main>
     <footer>
         <div class="footer">
             <p>&copy; Copyright Three Star Media, 2020</p>
-            <p>All images are taken from <a href="#" target="_blank">Unsplash</a></p>
+            <p>All images are taken from <a href="#" target="_blank" class="unsplash">Unsplash</a></p><!--added class-->
         </div>
     </footer>
 </body>
